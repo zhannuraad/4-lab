@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ashitaba</title>
+  
+  <style>
+    body {
+      background-image: url('окбг.jpg');
+      background-repeat: no-repeat;
+      background-size: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: white;
+      padding: 1px 0;
+    }
+
+    header h1 {
+      text-align: center;
+      margin: 0;
+    }
+
+    header a {
+      text-decoration: none;
+      color: black;
+      margin-right: 20px;
+      font-family: Arial, sans-serif;
+    }
+
+    header img {
+      vertical-align: middle;
+      margin-right: 10px;
+    }
+
+    .page-title {
+      text-align: left;
+      font-size: 40px;
+      margin-top: 20px;
+      color: rgb(70, 68, 68);
+      font-family: Arial, sans-serif;
+      max-width: 1500px;
+      margin: 20px auto; 
+      line-height: 1.4;
+    }
+
+    .table-container {
+      max-width: 1500px;
+      margin: 20px auto;
+      border: 1px solid #ccc; /* Граница вокруг таблицы */
+      border-collapse: collapse; /* Убирает пробелы между ячейками */
+    }
+
+    table {
+      width: 100%; /* Ширина таблицы */
+      border-collapse: collapse; /* Убирает пробелы между ячейками */
+    }
+
+    th, td {
+      border: 1px solid black; /* Границы ячеек */
+      padding: 8px; /* Отступы внутри ячеек */
+      text-align: left; /* Выравнивание текста */
+    }
+
+    th {
+      background-color: #f2f2f2; /* Цвет фона заголовка */
+      text-align: center; /* Выравнивание заголовка по центру */
+    }
+
+    td:first-child {
+      text-align: left; /* Выравнивание первого столбца по ширине */
+    }
+
+    td:nth-child(2) {
+      text-align: center; /* Выравнивание второго столбца по центру */
+    }
+
+    tr:nth-child(even) td {
+      background-color: #f9f9f9; /* Светлый фон для четных строк */
+    }
+
+    .nav-link {
+      font-size: 40px; /* Установите размер текста ссылки */
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #007BFF; /* Синий цвет фона */
+      color: white; /* Цвет текста */
+      border-radius: 5px; /* Закругленные углы */
+      text-decoration: none; /* Убираем подчеркивание */
+      font-family: Arial, sans-serif;
+      margin: 10px; /* Отступы */
+      transition: background-color 0.3s; /* Плавный переход цвета */
+    }
+
+    .nav-link:hover {
+      background-color: #0056b3; /* Цвет при наведении */
+    }
+
+    .float-img {
+      float: left; /* Обтекание изображения слева */
+      margin-right: 15px; /* Отступ справа от изображения */
+      margin-bottom: 10px; /* Отступ снизу от изображения */
+    }
+
+    /* Стили для заголовков, если они не определены */
+    .page-title3, .page-title4, .page-title5 {
+      font-size: 24px; /* Примерный размер для заголовков */
+      margin: 10px 0;
+      color: rgb(70, 68, 68);
+      font-family: Arial, sans-serif;
+    }
+  </style>
+  
+</head>
+<body>
+
+  <header>
+    <h1>
+      <a href="Моипроекты.html"><img src="logo.svg" width="55px" height="105px" alt="Логотип"></a>
+      <a href="ок.html">О компании</a>
+      <a href="п.html">Продукты</a>
+      <a href="к.html">Контакты</a>
+      <a class="nav-link" href="#ashitaba-section">Ашитаба</a>
+      <a class="nav-link" href="#purchase-link">Приступить к покупке</a>
+    </h1>
+  </header>
+
+  <h1 id="ashitaba-section" class="page-title">Ashitaba</h1>
+  
+  <!-- Здесь начинается таблица -->
+  <div class="table-container">
+    <table>
+      <thead>
+        <tr>
+          <th colspan="3">Польза Ашитабы</th> <!-- Объединение ячеек в заголовке -->
+        </tr>
+        <tr>
+          <th>Свойство</th>
+          <th>Описание</th>
+          <th>Польза</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Антиоксиданты</td>
+          <td>Содержит мощные антиоксиданты</td>
+          <td>Помогают замедлить старение</td>
+        </tr>
+        <tr>
+          <td>Витамины</td>
+          <td>Богат витаминами группы B</td>
+          <td>Укрепляют иммунитет</td>
+        </tr>
+        <tr>
+          <td>Минералы</td>
+          <td>Содержит важные минералы, такие как кальций и магний</td>
+          <td>Поддерживают здоровье костей</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <!-- Здесь заканчивается таблица -->
+
+  <h2 class="page-title2">Замедли процесс старения</h2>
+  <img src="аш.png" width="300px" height="300px" class="float-img" alt="Изображение Ашитабы"> <!-- Изображение с обтеканием -->
+  <h1 class="page-title3"><img src="ашн1.png" width="25px" height="25px" alt="Логотип">Ашитаба (Angelica Keiskei Koidzumi)</h1>
+  <h2 class="page-title4">это вид семейства сельдерейных, представляет собой крупное многолетнее растение. Он процветает на богатой вулканической почве острова Хачидзё в Японии.</h2>
+  <h2 class="page-title4">Ашитаба в переводе с японского, означает «завтрашний лист», потому что всякий раз, когда срывают лист, на следующий день вырастает новый. Со времен Эдо жители острова Хатидзё были известны своим долголетием. Они редко страдали такими заболеваниями, как рак, скачки кровяного давления, инсульты, инфаркт миокарда и болезнь Альцгеймера. Позже выяснилось, что местные жители ежедневно ели сырую ашитабу, которая впоследствии стала известна как «трава долголетия». Сегодня это уникальное растение считается сокровищем и королем овощей острова Хатидзё.</h2>
+  <img src="ашф.jpg" style="display: block; margin: 25px auto;">
+  <h2 class="page-title4">Ашитаба является богатым источником необходимых витаминов, минералов и аминокислот. Японские ученые обнаружили, что его желтый сок обладает ценными канцеростатическими, антитромботическими и язвопрофилактическими свойствами. В зрелом состоянии эти растения способствуют здоровью клеток и потенциально помогают бороться со старением и возрастными заболеваниями.</h2>
+  <img src="ашф2.jpg" style="display: block; margin: 25px auto;">
+  <h2 class="page-title4">Со времен Эдо жители острова Хатидзё были известны своим долголетием. Они редко страдали такими заболеваниями, как рак, скачки кровяного давления, инсульты, инфаркт миокарда и болезнь Альцгеймера. Позже выяснилось, что местные жители ежедневно ели сырую ашитабу.</h2>
+  <img src="ашф3.jpg" style="display: block; margin: 25px auto;">
+  <h1 class="page-title5"><img src="ашн2.png" width="25px" height="25px" alt="Логотип">Показания к применения:</h1>
+
+  <marquee class="marquee-images" behavior="scroll" direction="left" scrollamount="15">
+    <img src="ашс1.jpg" width="350px" height="260px">
+    <img src="ашс2.jpg" width="350px" height="260px">
+    <img src="ашс3.jpg" width="350px" height="260px">
+    <img src="ашс4.jpg" width="350px" height="260px">
+    <img src="ашс5.jpg" width="350px" height="260px">
+    <img src="ашс6.jpg" width="350px" height="260px">
+    <img src="ашс7.jpg" width="350px" height="260px">
+    <img src="ашс8.jpg" width="350px" height="260px">
+  </marquee>
+
+  <div id="purchase-link" class="center-link">
+    <a class="nav-link" href="пок.html">Приступить к покупке</a> <!-- Вернулся к прежнему тексту с исходным размером -->
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Главная</title>
+  
+  <style>
+    body {
+      background-image: url('bg1.jpg');
+      background-repeat: no-repeat;
+      background-size: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: white;
+      padding: 1px 0;
+    }
+
+    header h1 {
+      text-align: center;
+      margin: 0;
+    }
+
+    header a {
+      text-decoration: none;
+      color: black;
+      margin-right: 20px;
+    }
+
+    header img {
+      vertical-align: middle;
+      margin-right: 10px;
+    }
+
+    /* Стиль для текста в <div> */
+    #styled-text {
+      border: 1px solid #000; /* Видимая граница */
+      padding: 2cm 1cm 2cm 3cm; /* Отступы: верхний, правый, нижний, левый */
+      background-color: #d3d3d3; /* Светло-серый фон */
+      font-family: 'Times New Roman', Times, serif; /* Гарнитура */
+      font-size: 14pt; /* Кегль */
+      text-indent: 1.5cm; /* Абзацный отступ */
+    }
+
+    /* Стиль для буквицы */
+    #styled-text span {
+      font-size: 18pt; /* Размер буквицы */
+      font-weight: bold; /* Полужирный шрифт для буквицы */
+    }
+
+  </style>
+  
+</head>
+<body>
+
+  <header>
+    <h1>
+      <a href="Моипроекты.html"><img src="logo.svg" width="55px" height="105px" alt="Логотип"></a>
+      <a href="ок.html">О компании</a>
+      <a href="п.html">Продукты</a>
+      <a href="к.html">Контакты</a>
+    </h1>
+  </header>
+
+  <div id="styled-text">
+    <p><span>П</span>риветствуем вас на нашем сайте! Здесь вы можете найти информацию о наших продуктах и услугах. Мы стремимся предоставлять лучший сервис и качество.</p>
+  </div>
+
+  <marquee class="marquee-images" behavior="scroll" direction="left" scrollamount="25">
+    <a href="ashitaba.html"> <img src="m1.jpg" width="1000px" height="600px"></a>
+    <a href="sq.html"> <img src="m2.jpg" width="980px" height="600px"></a>
+    <a href="ca.html"> <img src="m3.jpg" width="1000px" height="600px"></a> 
+  </marquee>
+
+</body>
+</html>
